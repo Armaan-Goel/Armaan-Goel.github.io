@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<base href="/Users/arm21/Desktop/CSWEB/">
+<head>
+  <title>B4SH - Looping Statements!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/monokai.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid" style="background-color: #1d1d1d;">
+    <div class="container">
+    <div class="text-center">
+     </div>
+    <h1 id="header">Looping Statements</h1>
+    <p id="headerSubtitle">A look at the various Looping Statements in Bash!</p>
+    </div>
+
+</div>
+<div style="text-align:center">
+<a href="index.html" class="btn btn-primary ButtonOptimization"><i class="fas fa-home IconOmptimization"></i> Home Page</a>
+<a href="tutorials.html" class="btn btn-primary ButtonOptimization"><i class="fas fa-project-diagram IconOmptimization"></i> Tutorials Page</a>
+</div>
+<div class="container">
+  <div id="bio" class="card" style="margin-bottom:10px; margin-top:30px;">
+    <div class="card-body">
+      <h4 class="card-title text-center BioTitleOptimization"><u>Running code multiple/known times</u></h4>
+
+      <p class="card-text text-center BioSubTitleOptimization">We Use 'for' and 'while' loops in bash</p>
+
+      <p class="card-text text-center BioSubTitleOptimization">Here are examples of 'for' loop, it is usually used when the number of times it has to be run is known, we can also use it to loop through contents of arrays</p>
+      <script src="https://gist.github.com/Armaan-Goel/94043044726a17157204b0162b70255a.js"></script>
+      <p class="card-text text-center BioSubTitleOptimization">In the example above, the value increments by 1, if we want to increment it by more than one or decrement it, we can use the following, Note that the 'for i in {0..10..2}' loop needs Bash version 4.0 and above, MacOS has in-built version 3.x.x</p>
+      <script src="https://gist.github.com/Armaan-Goel/8790f862f5e4f61a427eaec0e53d9b50.js"></script>
+      <p class="card-text text-center BioSubTitleOptimization">While loop is usually used to run code unknown times but here is an example for known times, it executes the code until the given condition is true</p>
+      <script src="https://gist.github.com/Armaan-Goel/8157808e2326ad955fb0a150b392035c.js"></script>
+
+      <br><br><h4 class="card-title text-center BioTitleOptimization"><u>Running code infinite/unknown times</u></h4>
+      <p class="card-text text-center BioSubTitleOptimization">For Loop only has 1 example of how you can run the loop infinte times, using empty expressions in a C-Style loop like this</p>
+      <script src="https://gist.github.com/Armaan-Goel/7720c694fd4e2a2effbb52f8dfdaf574.js"></script>
+      <p class="card-text text-center BioSubTitleOptimization">We can use While Loop to run a code until a statement, read through files though it. The last loop in the code below uses <a href="tutorials/conditional-statements.html">Conditional Statements</a> and <a href=tutorials/user_inputs.html>User Input</a>, you can check my guide for those out by clicking on it!</p>
+      <script src="https://gist.github.com/Armaan-Goel/957b3c01422edc2fdbb503cc5e0d0729.js"></script>
+      <div class="text-center">
+
+  </div>
+  </div>
+  </div>
+
+
+</div>
+<footer class="page-footer font-small blue">
+
+
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://github.com/Armaan-Goel">Armaan Goel</a>
+    <br>
+
+  </div>
+
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

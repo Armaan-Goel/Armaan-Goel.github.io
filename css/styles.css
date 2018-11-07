@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bungee|Londrina+Shadow|Press+Start+2P');@font-face {
+    font-family: LondrinaShadow;
+    src: url(../assets/fonts/Londrina_Shadow/LondrinaShadow-Regular.ttf);
+}
+
+
+body{
+    background-image: linear-gradient(-90deg, black, #181818);
+}
+
+#header{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4vw;
+}
+#headerSubtitle{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1vw;
+}
+
+#bio{
+    background-color: #181818;
+    color: white;
+}
+#bioExteneded{
+  background-color: #686868;
+  color: white;
+}
+
+#bioExtenededProgramming {
+  background-color: #e2e0e0;
+  color: black;
+}
+
+.ButtonOptimization{
+    font-family: 'Bungee', cursive;
+}
+.IconOmptimization{
+    font-size: 1vw;
+}
+.BioTitleOptimization{
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 3.5vw;
+}
+.BioSubTitleOptimization{
+    font-size: 1.5vw;
+}
+
+@media (min-width: 10px) and (max-width: 1100px) {
+    #header{
+        font-size: 5vw;
+    }
+    #headerSubtitle{
+        font-size: 3vw;
+ }
+    .ButtonOptimization{
+        font-size: 3vw;
+}
+    .IconOmptimization{
+        font-size: 3.5vw;
+}
+    .BioTitleOptimization{
+        font-size: 8.5vw;
+ }
+ .BioSubTitleOptimization{
+    font-size: 4.5vw;
+}
+}

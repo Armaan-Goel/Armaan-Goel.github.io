@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<base href="/Users/arm21/Desktop/CSWEB/">
+<head>
+  <title>B4SH - Intro to Bash!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/monokai.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid" style="background-color: #1d1d1d;">
+    <div class="container">
+    <div class="text-center">
+     </div>
+    <h1 id="header">An Intro to Bash!</h1>
+    <p id="headerSubtitle">Making a Simple Script, Basics such as variable assigning, opreations and printing them!</p>
+    </div>
+
+</div>
+<div style="text-align:center">
+<a href="index.html" class="btn btn-primary ButtonOptimization"><i class="fas fa-home IconOmptimization"></i> Home Page</a>
+<a href="tutorials.html" class="btn btn-primary ButtonOptimization"><i class="fas fa-project-diagram IconOmptimization"></i> Tutorials Page</a>
+</div>
+<div class="container">
+  <div id="bio" class="card" style="margin-bottom:10px; margin-top:30px;">
+    <div class="card-body">
+      <h4 class="card-title text-center BioTitleOptimization"><u>Getting Started with Bash</u></h4>
+<p class="card-text text-center BioSubTitleOptimization">First off we can make a Bash file by opening a text editor and adding a 'shebang' or an import line at the top and save the file with a .sh extension. The shebang tells terminal the location of the bash shell.</p>
+<script src="https://gist.github.com/Armaan-Goel/ba264d086e32af78936f99c9661985b0.js"></script>
+<p class="card-text text-center BioSubTitleOptimization">Before running the script, we need to make it an executable, and that can be done by using 'chmod' like this</p>
+<script src="https://gist.github.com/Armaan-Goel/08e9548d3883d0e50a4b771d8fe85adb.js"></script>
+<p class="card-text text-center BioSubTitleOptimization">Here is a Hello World script in Bash</p>
+<script src="https://gist.github.com/Armaan-Goel/cac4ca695ae973b6d56a6371ad161698.js"></script>
+      <br><br><h4 class="card-title text-center BioTitleOptimization"><u>Assigning Variables & Operations</u></h4>
+      <p class="card-text text-center BioSubTitleOptimization">Assigning Variables in Bash is Easy! We do not need to declare the type of data. Here is an example of declaring variables in Bash. Note that it won't work if there is a space between the variable and the '=' sign</p>
+<script src="https://gist.github.com/Armaan-Goel/583d25e9804062384c254ccf376ae89c.js"></script>
+        <p class="card-text text-center BioSubTitleOptimization">We can perform the basic operators like '+', '-', '/' for division, '*' for multiplication, and '%' for modulus. We need to put all operations in (( )) so that Terminal can know it has to perform an operation. Here is a script of performing these operations with 10 and 2</p>
+<script src="https://gist.github.com/Armaan-Goel/76c104f9e7a4e9825631a8eaa8062c2c.js"></script>
+
+      <br><br><h4 class="card-title text-center BioTitleOptimization"><u>Printing/Output</u></h4>
+      <p class="card-text text-center BioSubTitleOptimization">Printing is usually done with 'echo'. We Can echo a Number, String, Variable anything we would like. When echoing a variable we always put a '$' sign before it. For printing arrays we do ${arrayname[indexID]}. It is always best to quote the variables which means putting them in "quotation marks". Here is a script of printing different variables.</p>
+<script src="https://gist.github.com/Armaan-Goel/bb256923ead4b9cc4120cf035b3eb6ce.js"></script>
+<p class="card-text text-center BioSubTitleOptimization">You can also directly print a terminal command, the syntax followed is ' echo "$(command)" '. Here is an example of a script that prints the addition of 2 number in 1 line!</p>
+<script src="https://gist.github.com/Armaan-Goel/d703aeebb6ad9db08bebc01c34da1b77.js"></script>
+<p class="card-text text-center BioSubTitleOptimization">Similary, the output of an echo can be assigned to a variable using the '>' parameter like 'echo "something" > myvar'. Here is an example</p>
+<script src="https://gist.github.com/Armaan-Goel/cf2a0b45b2a0be6c3583419f95bd16ad.js"></script>
+      <div class="text-center">
+
+  </div>
+  </div>
+  </div>
+
+
+</div>
+<footer class="page-footer font-small blue">
+
+
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://github.com/Armaan-Goel">Armaan Goel</a>
+    <br>
+
+  </div>
+
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

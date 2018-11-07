@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<base href="/Users/arm21/Desktop/CSWEB/">
+<head>
+  <title>B4SH - Functions!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/monokai.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid" style="background-color: #1d1d1d;">
+    <div class="container">
+    <div class="text-center">
+     </div>
+    <h1 id="header">Functions</h1>
+    <p id="headerSubtitle">How to make functions, pass variables and get values!</p>
+    </div>
+
+</div>
+<div style="text-align:center">
+<a href="index.html" class="btn btn-primary ButtonOptimization"><i class="fas fa-home IconOmptimization"></i> Home Page</a>
+<a href="tutorials.html" class="btn btn-primary ButtonOptimization"><i class="fas fa-project-diagram IconOmptimization"></i> Tutorials Page</a>
+</div>
+<div class="container">
+  <div id="bio" class="card" style="margin-bottom:10px; margin-top:30px;">
+    <div class="card-body">
+      <h4 class="card-title text-center BioTitleOptimization"><u>Creating a Function</u></h4>
+
+      <p class="card-text text-center BioSubTitleOptimization">Functions are nothing but small subroutines or subscripts within a Bash shell script. They can perform your deisred tasks rather than having to write the same code again and again. The declaration and calling of a function goes as below:</p>
+<script src="https://gist.github.com/Armaan-Goel/4637984c67b060fe82a49544be6355ba.js"></script>
+      <br><br><h4 class="card-title text-center BioTitleOptimization"><u>Passing Variables</u></h4>
+      <p class="card-text text-center BioSubTitleOptimization">We can pass variables to a function, we call it first and pass the variables or aguments with spaces, it is best to "quote them" since strings can have spaces. The function will take each argument and give it a special id, Example - the first argument will be assigned as $1, the second as $2 and so on. Here is an example</p>
+      <script src="https://gist.github.com/Armaan-Goel/62a57cc601d81cd79ff007e47eb0137d.js"></script>
+      <p class="card-text text-center BioSubTitleOptimization">Using what we have learnt above, here is a function to add 2 numbers and print them. This fucntion creates local variables, which are variables that only the function can access and get reset everytime it is called.</p>
+      <script src="https://gist.github.com/Armaan-Goel/7eb10083c86516e3ceb93ae41bf15980.js"></script>
+      <br><br><h4 class="card-title text-center BioTitleOptimization"><u>Getting Variables</u></h4>
+      <p class="card-text text-center BioSubTitleOptimization">In the script above, we made local variables and the function directly echoed the result of the addition, if you would like to assign the sum to a variable for a later use, you can do so by assigning the value to a global variable</p>
+      <script src="https://gist.github.com/Armaan-Goel/9014c5a5a9161c5a6a6767c80bed2399.js"></script>
+      <div class="text-center">
+
+  </div>
+  </div>
+  </div>
+
+
+</div>
+<footer class="page-footer font-small blue">
+
+
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://github.com/Armaan-Goel">Armaan Goel</a>
+    <br>
+
+  </div>
+
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
